@@ -1,0 +1,9 @@
+<nav>
+    <ul class="nav-list">
+        <li><a routerLink="/">Home</a></li>
+        <div class="cart">
+            <li><a routerLink="/cart">Cart</a></li><span class="nav-list__number"
+                *ngIf="getNumberOfItems()>0">{{getNumberOfItems()}}</span>
+        </div>
+    </ul>
+</nav>

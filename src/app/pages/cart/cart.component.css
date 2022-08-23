@@ -1,0 +1,93 @@
+.cart-header,
+.cart-text,
+.cart {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 700px;
+}
+
+.cart-header{
+    padding-top: 50px;
+}
+
+.cart-text{
+    padding-top: 15px;
+}
+
+.cart {
+    margin: 20px auto 0;
+    border-collapse: collapse
+}
+
+.cart__thumbnail {
+    width: 80px;
+    height: 80px;
+}
+
+.cart__thumbnail img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.cart td,
+.cart th {
+    padding: 12px;
+}
+
+.cart tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.cart tr:hover {
+    background-color: #ddd;
+}
+
+.cart th {
+    text-align: left;
+    color: #333;
+}
+
+.cart-center {
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 0 0 60px;
+}
+
+.btn-container button,
+.btn-container a {
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-container a {
+    text-decoration: none;
+}
+
+.red {
+    background-color: #860000;
+}
+
+.gray {
+    background-color: rgba(0, 0, 0, 0.767);
+}
+
+.red:hover {
+    background-color: #b30000;
+}
+
+.gray:hover {
+    background-color: #222;
+}

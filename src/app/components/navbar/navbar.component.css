@@ -1,0 +1,36 @@
+nav {
+    background-color: #333;
+    padding: 25px 40px;
+    position: sticky;
+    top: 0;
+}
+.nav-list {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    max-width: 900px;
+    margin: 0 auto;
+} 
+
+.nav-list li a {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.nav-list li a:hover {
+    text-decoration: underline;
+}
+
+.cart {
+    display: flex;
+    align-items: baseline;
+}
+.nav-list__number {
+    color: yellow;
+    font-size: 10px;
+    padding-left: 3px;
+}
